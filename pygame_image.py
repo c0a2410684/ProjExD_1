@@ -43,6 +43,8 @@ def main():
             kk_rct.move_ip((-1, 0))
         if key_lst[pg.K_RIGHT]:
             kk_rct.move_ip((1, 0))
+        else:
+            kk_rct.move_ip((-1, 0))
 
 
 if __name__ == "__main__":
